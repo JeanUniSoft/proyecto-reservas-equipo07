@@ -27,6 +27,7 @@ Cada requerimiento tiene un código `RQ-xx` que se usa en la tarjeta, en los com
 ## Funcionalidades de la versión 1.0
 
 - (pendiente)
+- # - Reservas: registrar con cliente, servicio, fecha y hora (RQ-07, RQ-08, RQ-09).
 
 ## Pendiente para versiones posteriores (v2.0)
 
