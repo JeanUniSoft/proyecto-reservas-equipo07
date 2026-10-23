@@ -31,6 +31,11 @@ form.addEventListener('submit', e => {
     dni: form.dni.value.trim(),
     telefono: form.telefono.value.trim()
   };
+
+  if (!/^\d{8}$/.test(datos.dni)) { 
+    alert('El DNI debe tener 8 dígitos'); 
+    return; 
+  }
   if (id) {
     Object.assign(clientes.find(c => c.id === id), datos);
   } else {
