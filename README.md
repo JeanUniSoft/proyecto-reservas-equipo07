@@ -26,7 +26,11 @@ Cada requerimiento tiene un código `RQ-xx` que se usa en la tarjeta, en los com
 
 ## Funcionalidades de la versión 1.0
 
+<<<<<<< HEAD
 - Servicios: registrar con precio y duración, y consultar (RQ-04, RQ-05, RQ-06)
+=======
+- Clientes: registrar, modificar y consultar (RQ-01, RQ-02, RQ-03)
+>>>>>>> origin/develop
 
 ## Pendiente para versiones posteriores (v2.0)
 
