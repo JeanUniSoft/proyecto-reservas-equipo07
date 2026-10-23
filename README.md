@@ -21,7 +21,7 @@ Curso: Herramientas de Desarrollo – UTP · Avance de Proyecto Final 2.
 
 ## Gestión de actividades
 
-Tablero Trello «Reservas – Equipo 07» con las listas Pendientes, Seleccionadas (v1.0), En progreso, En revisión y Terminado.
+Tablero Trello «Reservas – Equipo 07» (https://trello.com/b/Bilm9I9A/reservas-equipo-07) con las listas Pendientes, Seleccionadas (v1.0), En progreso, En revisión y Terminado.
 Cada requerimiento tiene un código `RQ-xx` que se usa en la tarjeta, en los commits y en el Pull Request.
 
 ## Funcionalidades de la versión 1.0
