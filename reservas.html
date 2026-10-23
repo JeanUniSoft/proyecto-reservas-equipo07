@@ -21,10 +21,16 @@
       <button type="submit">Registrar reserva</button>
     </form>
 
-    <!-- Consulta de reservas (RQ-10, RQ-11) -->
+    <h2>Reservas registradas</h2>
+    <input type="date" id="filtro-fecha">
+    <table>
+      <thead><tr><th>ID</th><th>Cliente</th><th>Servicio</th><th>Fecha</th><th>Hora</th><th>Estado</th><th>Acción</th></tr></thead>
+      <tbody id="tabla-reservas"></tbody>
+    </table>
 
   </main>
   <script src="js/storage.js"></script>
   <script src="js/reservas.js"></script>
+  <script src="js/reservas-consulta.js"></script>
 </body>
 </html>
