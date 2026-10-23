@@ -25,9 +25,7 @@ Tablero Trello «Reservas – Equipo 07» con las listas Pendientes, Seleccionad
 Cada requerimiento tiene un código `RQ-xx` que se usa en la tarjeta, en los commits y en el Pull Request.
 
 ## Funcionalidades de la versión 1.0
-
-- (pendiente)
-- # - Reservas: registrar con cliente, servicio, fecha y hora (RQ-07, RQ-08, RQ-09).
+- Reservas: registrar con cliente, servicio, fecha y hora (RQ-07, RQ-08, RQ-09).
 
 ## Pendiente para versiones posteriores (v2.0)
 
