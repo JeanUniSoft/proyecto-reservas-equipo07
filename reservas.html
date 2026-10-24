@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservas</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Gestión de reservas</h1>
+    <nav><a href="index.html">Inicio</a><a href="clientes.html">Clientes</a><a href="servicios.html">Servicios</a></nav>
+  </header>
+  <main>
+    <h2>Nueva reserva</h2>
+    <form id="form-reserva">
+      <select id="cliente"></select>
+      <select id="servicio"></select>
+      <input name="fecha" type="date" required>
+      <input name="hora" type="time" required>
+      <button type="submit">Registrar reserva</button>
+    </form>
+
+    <h2>Reservas registradas</h2>
+    <input type="date" id="filtro-fecha">
+    <table>
+      <thead><tr><th>ID</th><th>Cliente</th><th>Servicio</th><th>Fecha</th><th>Hora</th><th>Estado</th><th>Acción</th></tr></thead>
+      <tbody id="tabla-reservas"></tbody>
+    </table>
+
+  </main>
+  <script src="js/storage.js"></script>
+  <script src="js/reservas.js"></script>
+  <script src="js/reservas-consulta.js"></script>
+</body>
+</html>

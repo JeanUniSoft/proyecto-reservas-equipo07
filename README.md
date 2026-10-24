@@ -21,12 +21,15 @@ Curso: Herramientas de Desarrollo – UTP · Avance de Proyecto Final 2.
 
 ## Gestión de actividades
 
-Tablero Trello «Reservas – Equipo 07» con las listas Pendientes, Seleccionadas (v1.0), En progreso, En revisión y Terminado.
+Tablero Trello «Reservas – Equipo 07» (https://trello.com/b/Bilm9I9A/reservas-equipo-07) con las listas Pendientes, Seleccionadas (v1.0), En progreso, En revisión y Terminado.
 Cada requerimiento tiene un código `RQ-xx` que se usa en la tarjeta, en los commits y en el Pull Request.
 
 ## Funcionalidades de la versión 1.0
 
-- (pendiente)
+- Clientes: registrar, modificar y consultar (RQ-01, RQ-02, RQ-03)
+- Servicios: registrar con precio y duración, y consultar (RQ-04, RQ-05, RQ-06)
+- Reservas: registrar con cliente, servicio, fecha y hora (RQ-07, RQ-08, RQ-09)
+- Reservas: consultar por fecha y cancelar (RQ-10, RQ-11)
 
 ## Pendiente para versiones posteriores (v2.0)
 

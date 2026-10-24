@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clientes</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Gestión de clientes</h1>
+    <nav><a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a href="reservas.html">Reservas</a></nav>
+  </header>
+  <main>
+    <form id="form-cliente">
+      <input type="hidden" name="id_cliente">
+      <input name="nombre" placeholder="Nombre completo" required>
+      <input name="dni" placeholder="DNI" required>
+      <input name="telefono" placeholder="Teléfono" required>
+      <button type="submit">Guardar cliente</button>
+    </form>
+    <input id="buscar" placeholder="Buscar por nombre o DNI">
+    <table>
+      <thead><tr><th>ID</th><th>Nombre</th><th>DNI</th><th>Teléfono</th><th>Acción</th></tr></thead>
+      <tbody id="tabla-clientes"></tbody>
+    </table>
+  </main>
+  <script src="js/storage.js"></script>
+  <script src="js/clientes.js"></script>
+</body>
+</html>
